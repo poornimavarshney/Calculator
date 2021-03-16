@@ -18,12 +18,7 @@ public class CalculatorModel {
 
     private int result;
 
-    public CalculatorModel(int number1, int number2, char operation, int result) {
-        this.number1 = number1;
-        this.number2 = number2;
-        this.operation = operation;
-        this.result = result;
-    }
+
     public CalculatorModel(int number1, int number2, int result){
         this.number1 = number1;
         this.number2 = number2;
@@ -55,6 +50,6 @@ public class CalculatorModel {
     }
     @Override
     public String toString(){
-        return number1+" "+operation+" "+number2+" = "+result;
+        return number1+"  "+number2+" = "+result;
     }
 }

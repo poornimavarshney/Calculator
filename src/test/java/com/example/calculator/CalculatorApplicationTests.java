@@ -12,7 +12,7 @@ class CalculatorApplicationTests {
 	@Test
 	void contextLoads() {
 		//assertEquals(-1,new AddServices().addServices(-1,-9));
-		assertTrue("your fail message ",0 < new AddServices().addServices(-1,-9));
+		assertTrue("your fail message ",0 > new AddServices().addServices(-1,-9));
 	}
 
 }
